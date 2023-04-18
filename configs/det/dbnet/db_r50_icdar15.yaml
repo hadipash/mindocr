@@ -12,6 +12,7 @@ model:
   transform: null
   backbone:
     name: det_resnet50
+    dcn: True
     pretrained: True
   neck:
     name: DBFPN
